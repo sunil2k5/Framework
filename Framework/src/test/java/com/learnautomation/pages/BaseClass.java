@@ -15,7 +15,7 @@ import com.learnautomation.utility.Helper;
 public class BaseClass {
 	public WebDriver driver;
 	public ExcelDataProvider excel;
-	ConfigDataProvider config;
+	public ConfigDataProvider config;
 	
 	
 	@BeforeSuite

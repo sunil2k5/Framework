@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BrowserFactory {
 
@@ -14,11 +16,14 @@ public class BrowserFactory {
 			driver = new ChromeDriver();
 
 		} else if (browserName.equals("Firefox")) {
-			System.out.println("currently not implemented");
+			
+			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
+			driver = new FirefoxDriver();
 		}
 
 		else if (browserName.equals("IE")) {
-			System.out.println("currently not implemented");
+			System.setProperty("webdriver.ie.driver", "./Drivers/IEDriverServer32.exe");
+			driver = new InternetExplorerDriver();
 
 		} else {
 			System.out.println("Bwoser does not supported");

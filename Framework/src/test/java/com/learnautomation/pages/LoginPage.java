@@ -1,33 +1,30 @@
 package com.learnautomation.pages;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+
+
 
 public class LoginPage {
 
 	WebDriver driver;
 
-	public LoginPage(WebDriver Idriver) {
-		this.driver = Idriver;
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
 	}
 
-	//WebElement userName1 = driver.findElement(By.xpath("//input[@name='uid']"));
-	//WebElement Password1 = driver.findElement(By.xpath("//input[@name='password']"));
-	//WebElement LoginButton1 = driver.findElement(By.xpath("//input[@name='btnLogin']"));
-
-	@FindBy(name="uid")WebElement userName1;
-	@FindBy(name="password")WebElement Password1;
-	@FindBy(name="btnLogin")WebElement LoginButton1;
+		
+	By userName= By.xpath("//input[@name='uid']");
+	By password= By.xpath("//input[@name='password']");
+	By loginButton= By.xpath("//input[@name='btnLogin']");
 	
-	
-	
- public void LoginToCRM(String UserName, String Password) {
+	public void LoginToCRM(String userName1, String password1) {
 	 
-	 userName1.sendKeys(UserName);
-	 Password1.sendKeys(Password);
-	 LoginButton1.click();
+	 driver.findElement(userName).sendKeys(userName1);
+	 driver.findElement(password).sendKeys(password1);
+	 driver.findElement(loginButton).click();
+	 
 	 
  }	 
  }

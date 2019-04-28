@@ -27,5 +27,13 @@ public class ConfigDataProvider {
 		return pro.getProperty("qaURL");
 
 	}
+	
+	public String getUserName() {
+		return pro.getProperty("userName");
+	}
+	
+	public String getPassword() {
+		return pro.getProperty("password");
+	}
 
 }
