@@ -1,5 +1,7 @@
 package com.learnautomation.pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -23,6 +25,8 @@ public class LoginPage {
 		driver.findElement(userName).sendKeys(userName1);
 		driver.findElement(password).sendKeys(password1);
 		driver.findElement(loginButton).click();
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 	}
 
 	public String getHomeText() {
