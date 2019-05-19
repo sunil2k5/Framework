@@ -15,12 +15,15 @@ public class LoginPage {
 	}
 
 		
-	By userName= By.xpath("//input[@name='uid']");
-	By password= By.xpath("//input[@name='password']");
-	By loginButton= By.xpath("//input[@name='btnLogin']");
+	By userName= By.xpath("//input[@id='login-email']");
+	By password= By.xpath("//input[@id='login-pwd']");
+	By loginButton= By.xpath("//button[@id='btn-login']");
+	By signinLink= By.xpath("(//a[@class='dialogify'])[1]");
 	
 	public void LoginToCRM(String userName1, String password1) {
-	 
+		
+		
+	 driver.findElement(signinLink).click();
 	 driver.findElement(userName).sendKeys(userName1);
 	 driver.findElement(password).sendKeys(password1);
 	 driver.findElement(loginButton).click();
