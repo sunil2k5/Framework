@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -12,8 +13,10 @@ public class BrowserFactory {
 	public static WebDriver startApplication(WebDriver driver, String browserName, String appURL) {
 
 		if (browserName.equals("chrome")) {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-notifications");
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 
 		} else if (browserName.equals("Firefox")) {
 			

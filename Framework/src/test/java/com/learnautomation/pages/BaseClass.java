@@ -17,17 +17,16 @@ public class BaseClass {
 	public WebDriver driver;
 	public ExcelDataProvider excel;
 	public ConfigDataProvider config;
-	
-	
+
 	@BeforeSuite
 	public void setUpSuite() {
-		 excel= new ExcelDataProvider();
-		 config= new ConfigDataProvider();
+		excel = new ExcelDataProvider();
+		config = new ConfigDataProvider();
 	}
 
 	@BeforeClass
 	public void setup() {
-		driver = BrowserFactory.startApplication(driver, config.getBrowser(),config.getStagingURL() );
+		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getStagingURL());
 	}
 
 	@AfterClass
@@ -35,10 +34,10 @@ public class BaseClass {
 		BrowserFactory.quidBrowser(driver);
 
 	}
-	
+
 	@AfterMethod
 	public void tearDownMethod(ITestResult result) {
-		if (result.getStatus()==ITestResult.FAILURE) {
+		if (result.getStatus() == ITestResult.FAILURE) {
 			Helper.captureScreenshot(driver);
 		}
 	}

@@ -1,9 +1,12 @@
 package com.learnautomation.testcases;
 
-import static org.testng.Assert.assertEquals;
+
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 //import org.openqa.selenium.support.PageFactory;
@@ -18,11 +21,12 @@ public class LoginTestCRM extends BaseClass {
 	LoginPage objLogin;
 
 	@Test(priority=1)
-	public void loginApp() {
+	public void loginApp() throws InterruptedException {
 
 		objLogin = new LoginPage(driver);
 		// objLogin.LoginToCRM(excel.getStringData("Login", 0, 0),
 		// excel.getStringData("Login", 0, 1));
+		
 		objLogin.LoginToCRM(config.getUserName(), config.getPassword());
 		String textAtHomePage = objLogin.getHomeText();
 		Assert.assertEquals(textAtHomePage, "HEY, SUNIL");
