@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.learnautomation.testcases.LoginTestCRM">
+      <class name="com.learnautomation.testcases.JabongPointTest">
         <methods>
           <include name="setUpSuite"/>
-          <include name="loginApp"/>
           <include name="tearDownMethod"/>
           <include name="close"/>
           <include name="setup"/>
+          <include name="jabongPoingVerification"/>
         </methods>
-      </class> <!-- com.learnautomation.testcases.LoginTestCRM -->
+      </class> <!-- com.learnautomation.testcases.JabongPointTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

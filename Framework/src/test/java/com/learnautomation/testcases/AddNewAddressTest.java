@@ -18,23 +18,23 @@ public class AddNewAddressTest extends BaseClass {
 	public void login() throws InterruptedException {
 		objLogin = new LoginPage(driver);
 		objLogin.LoginToCRM(config.getUserName(), config.getPassword());
-		Thread.sleep(19000);
+
 	}
-	
+
 	@Test(priority = 2)
-	public void myAccountVerification() throws InterruptedException {
+	public void myAccountVerification() {
 
 		objMyaccount = new MyAccountPage(driver);
 		objMyaccount.myAccount();
 		Assert.assertEquals(objMyaccount.MyAccountTitle(), "YOUR ACCOUNT");
-		Thread.sleep(19000);
+
 	}
-	@Test(priority=3)
-	public void addNewAddressVerification() throws InterruptedException {
-		AddressPage objAddressPage=new AddressPage(driver);
+
+	@Test(priority = 3)
+	public void addNewAddressVerification() {
+		AddressPage objAddressPage = new AddressPage(driver);
 		objAddressPage.addNewAddress();
 		Assert.assertEquals(objAddressPage.verifyMessage(), "Address added successfully");
-		Thread.sleep(19000);
 
 	}
 }

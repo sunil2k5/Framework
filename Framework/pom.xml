@@ -56,6 +56,7 @@
 						<suiteXmlFile>XMLFiles/testng.xml</suiteXmlFile>
 						<suiteXmlFile>XMLFiles/testng1.xml</suiteXmlFile>
 						<suiteXmlFile>XMLFiles/testng3.xml</suiteXmlFile>
+						<suiteXmlFile>XMLFiles/testng4.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -1,7 +1,5 @@
 package com.learnautomation.testcases;
 
-import java.util.concurrent.TimeUnit;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,24 +15,23 @@ public class MyAccountChange extends BaseClass {
 	public void login() throws InterruptedException {
 		objLogin = new LoginPage(driver);
 		objLogin.LoginToCRM(config.getUserName(), config.getPassword());
-		Thread.sleep(19000);
+
 	}
 
 	@Test(priority = 2)
-	public void myAccountVerification() throws InterruptedException {
+	public void myAccountVerification() {
 
 		objMyaccount = new MyAccountPage(driver);
 		objMyaccount.myAccount();
 		Assert.assertEquals(objMyaccount.MyAccountTitle(), "YOUR ACCOUNT");
-		Thread.sleep(19000);
+
 	}
 
 	@Test(priority = 3)
-	public void personalInfoChange() throws InterruptedException {
-		
+	public void personalInfoChange() {
+
 		objMyaccount.personalInfoChange();
 		Assert.assertEquals(objMyaccount.updationMessage(), "Profile updated successfully");
-		Thread.sleep(19000);
 
 	}
 

@@ -18,13 +18,13 @@ public class BrowserFactory {
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver(options);
 
-		} else if (browserName.equals("Firefox")) {
+		} else if (browserName.equals("firefox")) {
 			
 			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 
-		else if (browserName.equals("IE")) {
+		else if (browserName.equals("ie")) {
 			System.setProperty("webdriver.ie.driver", "./Drivers/IEDriverServer32.exe");
 			driver = new InternetExplorerDriver();
 
@@ -32,10 +32,11 @@ public class BrowserFactory {
 			System.out.println("Bwoser does not supported");
 		}
 
-		//driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(appURL);
 		driver.manage().window().maximize();
+	
 
 		return driver;
 

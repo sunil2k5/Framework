@@ -26,7 +26,7 @@ public class MyAccountPage {
 
 	public void myAccount()  {
 		
-		driver.findElement(myAccountLink).click();
+		//driver.findElement(myAccountLink).click();
 		driver.findElement(myAccountLink).click();		
 
 	}
@@ -37,6 +37,7 @@ public class MyAccountPage {
 	public void personalInfoChange() {
 		driver.findElement(personalInfo).click();
 		driver.findElement(editCustomerInfo).click();
+		driver.findElement(lastName).clear();
 		driver.findElement(lastName).sendKeys("kumar");
 		driver.findElement(subitButton).click();		
 	}
