@@ -35,6 +35,7 @@ public class AddNewAddressTest extends BaseClass {
 		AddressPage objAddressPage = new AddressPage(driver);
 		objAddressPage.addNewAddress();
 		Assert.assertEquals(objAddressPage.verifyMessage(), "Address added successfully");
+		System.out.println("Address added successfully");
 
 	}
 }

@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 public class BrowserFactory {
 
@@ -18,8 +19,7 @@ public class BrowserFactory {
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver(options);
 
-		} else if (browserName.equals("firefox")) {
-			
+		} else if (browserName.equals("firefox")) {			
 			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
@@ -31,19 +31,19 @@ public class BrowserFactory {
 		} else {
 			System.out.println("Bwoser does not supported");
 		}
-
+		
+		EventFiringWebDriver e_driver= new EventFiringWebDriver(driver);
+		WebListener eventListener=new WebListener();
+		e_driver.register(eventListener);
+		driver=e_driver;
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(appURL);
 		driver.manage().window().maximize();
-	
-
 		return driver;
 
 	}
 
-	public static void quidBrowser(WebDriver driver) {
-		
+	public static void quidBrowser(WebDriver driver) {		
 		driver.close();
 	}
 }

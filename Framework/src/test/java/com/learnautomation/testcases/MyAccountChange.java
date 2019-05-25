@@ -32,6 +32,7 @@ public class MyAccountChange extends BaseClass {
 
 		objMyaccount.personalInfoChange();
 		Assert.assertEquals(objMyaccount.updationMessage(), "Profile updated successfully");
+		System.out.println("Profile updated successfully");
 
 	}
 

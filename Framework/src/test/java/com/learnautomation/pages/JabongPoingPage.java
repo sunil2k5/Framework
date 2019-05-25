@@ -3,6 +3,8 @@ package com.learnautomation.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.learnautomation.utility.Utility;
+
 public class JabongPoingPage {
 
 	WebDriver driver;
@@ -15,14 +17,14 @@ public class JabongPoingPage {
 	By jbongPointLink = By.xpath("//a[@href='/customer/points/history/']");
 	By jabongPoint = By.xpath("(//p[@class='jp-details']/span)[1]");
 
-	
 	public void clickOnJabongLink() {
-		
-		driver.findElement(jbongPointLink).click();
+		Utility.clickOn(driver, jbongPointLink, 20);
+		// driver.findElement(jbongPointLink).click();
 	}
-	
+
 	public String getJabongPoint() {
-		return driver.findElement(jabongPoint).getText();
+		return Utility.getText(driver, jabongPoint, 20);
+		// return driver.findElement(jabongPoint).getText();
 	}
 
 }

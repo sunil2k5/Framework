@@ -3,6 +3,8 @@ package com.learnautomation.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.learnautomation.utility.Utility;
+
 public class AddressPage {
 	
 	WebDriver driver;
@@ -21,18 +23,33 @@ public class AddressPage {
 	By addressAddedMessage=By.xpath("//div[@class='address-added']");
 	
 	public void addNewAddress() {
-		driver.findElement(savedAddress).click();
-		driver.findElement(addNewAddress).click();
-		driver.findElement(pinCode).sendKeys("700136");
-		driver.findElement(name).sendKeys("vandana kumari");
-		driver.findElement(addressField).sendKeys("arush apartment, near vaisno devi temple");
-		driver.findElement(mobileNumber).sendKeys("7296053865");
-		driver.findElement(addThisAddress).click();
+		
+		Utility.clickOn(driver, savedAddress, 20);
+		Utility.clickOn(driver, addNewAddress, 20);
+		Utility.sendKey(driver, pinCode, 20, "700136");
+		Utility.sendKey(driver, name, 20, "vandana kumari");
+		Utility.sendKey(driver, addressField, 20, "arush apartment, near vaisno devi temple");
+		Utility.sendKey(driver, mobileNumber, 20, "7296053865");
+		Utility.clickOn(driver, addThisAddress, 20);
+		
+		
+		
+		/*
+		 * driver.findElement(savedAddress).click();
+		 * driver.findElement(addNewAddress).click();
+		 * driver.findElement(pinCode).sendKeys("700136");
+		 * driver.findElement(name).sendKeys("vandana kumari");
+		 * driver.findElement(addressField).
+		 * sendKeys("arush apartment, near vaisno devi temple");
+		 * driver.findElement(mobileNumber).sendKeys("7296053865");
+		 * driver.findElement(addThisAddress).click();
+		 */
 	
 	}
 	
 	public String verifyMessage() {
-		return driver.findElement(addressAddedMessage).getText();
+		return Utility.getText(driver, addressAddedMessage, 20);
+		//return driver.findElement(addressAddedMessage).getText();
 	}
 	
 

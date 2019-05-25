@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeSuite;
 import com.learnautomation.utility.BrowserFactory;
 import com.learnautomation.utility.ConfigDataProvider;
 import com.learnautomation.utility.ExcelDataProvider;
-import com.learnautomation.utility.Helper;
+import com.learnautomation.utility.Utility;
 
 public class BaseClass {
 	public WebDriver driver;
@@ -38,7 +38,7 @@ public class BaseClass {
 	@AfterMethod
 	public void tearDownMethod(ITestResult result) {
 		if (result.getStatus() == ITestResult.FAILURE) {
-			Helper.captureScreenshot(driver);
+			Utility.captureScreenshot(driver);
 		}
 	}
 }

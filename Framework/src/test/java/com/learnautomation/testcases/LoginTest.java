@@ -8,9 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.learnautomation.pages.BaseClass;
 import com.learnautomation.pages.LoginPage;
-import com.learnautomation.utility.Helper;
+import com.learnautomation.utility.Utility;
 
-public class LoginTestCRM extends BaseClass {
+public class LoginTest extends BaseClass {
 
 	LoginPage objLogin;
 
@@ -22,10 +22,10 @@ public class LoginTestCRM extends BaseClass {
 		// excel.getStringData("Login", 0, 1));
 
 		objLogin.LoginToCRM(config.getUserName(), config.getPassword());
-		Thread.sleep(9000);
 		String textAtHomePage = objLogin.getHomeText();
 		Assert.assertEquals(textAtHomePage, "HEY, SUNIL");
-		Helper.captureScreenshot(driver);
+		System.out.println("Login Successully");
+		Utility.captureScreenshot(driver);
 	}
 
 }

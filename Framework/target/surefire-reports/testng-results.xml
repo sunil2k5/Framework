@@ -2,219 +2,219 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46101" started-at="2019-05-23T18:45:40Z" finished-at="2019-05-23T18:46:26Z">
+  <suite name="Suite" duration-ms="29454" started-at="2019-05-25T05:37:06Z" finished-at="2019-05-25T05:37:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46101" started-at="2019-05-23T18:45:40Z" finished-at="2019-05-23T18:46:26Z">
-      <class name="com.learnautomation.testcases.LoginTestCRM">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@2096442d]" name="setUpSuite" is-config="true" duration-ms="330" started-at="2019-05-23T18:45:40Z" finished-at="2019-05-23T18:45:40Z">
+    <test name="Test" duration-ms="29454" started-at="2019-05-25T05:37:06Z" finished-at="2019-05-25T05:37:35Z">
+      <class name="com.learnautomation.testcases.LoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTest@2c9f9fb0]" name="setUpSuite" is-config="true" duration-ms="344" started-at="2019-05-25T05:37:05Z" finished-at="2019-05-25T05:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@2096442d]" name="setup" is-config="true" duration-ms="9789" started-at="2019-05-23T18:45:40Z" finished-at="2019-05-23T18:45:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTest@2c9f9fb0]" name="setup" is-config="true" duration-ms="8819" started-at="2019-05-25T05:37:06Z" finished-at="2019-05-25T05:37:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@2096442d]" name="loginApp" duration-ms="33962" started-at="2019-05-23T18:45:50Z" finished-at="2019-05-23T18:46:24Z">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTest@2c9f9fb0]" name="loginApp" duration-ms="18225" started-at="2019-05-25T05:37:15Z" finished-at="2019-05-25T05:37:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@2096442d]" name="tearDownMethod" is-config="true" duration-ms="3" started-at="2019-05-23T18:46:24Z" finished-at="2019-05-23T18:46:24Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTest@2c9f9fb0]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-25T05:37:33Z" finished-at="2019-05-25T05:37:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@2096442d] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTest@2c9f9fb0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@2096442d]" name="close" is-config="true" duration-ms="2320" started-at="2019-05-23T18:46:24Z" finished-at="2019-05-23T18:46:26Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.learnautomation.testcases.LoginTest@2c9f9fb0]" name="close" is-config="true" duration-ms="2374" started-at="2019-05-25T05:37:33Z" finished-at="2019-05-25T05:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.learnautomation.testcases.LoginTestCRM -->
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite name="Suite (1)" duration-ms="39769" started-at="2019-05-23T18:47:16Z" finished-at="2019-05-23T18:47:56Z">
+  <suite name="Suite (1)" duration-ms="33458" started-at="2019-05-25T05:38:07Z" finished-at="2019-05-25T05:38:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="39769" started-at="2019-05-23T18:47:16Z" finished-at="2019-05-23T18:47:56Z">
+    <test name="Test" duration-ms="33458" started-at="2019-05-25T05:38:07Z" finished-at="2019-05-25T05:38:41Z">
       <class name="com.learnautomation.testcases.AddNewAddressTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="setUpSuite" is-config="true" duration-ms="7" started-at="2019-05-23T18:47:16Z" finished-at="2019-05-23T18:47:16Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="setUpSuite" is-config="true" duration-ms="16" started-at="2019-05-25T05:38:07Z" finished-at="2019-05-25T05:38:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="setup" is-config="true" duration-ms="8518" started-at="2019-05-23T18:47:16Z" finished-at="2019-05-23T18:47:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="setup" is-config="true" duration-ms="7470" started-at="2019-05-25T05:38:07Z" finished-at="2019-05-25T05:38:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="login" duration-ms="16243" started-at="2019-05-23T18:47:25Z" finished-at="2019-05-23T18:47:41Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="login" duration-ms="11418" started-at="2019-05-25T05:38:15Z" finished-at="2019-05-25T05:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-23T18:47:41Z" finished-at="2019-05-23T18:47:41Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-25T05:38:26Z" finished-at="2019-05-25T05:38:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=AddNewAddressTest.login()[pri:1, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=AddNewAddressTest.login()[pri:1, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="myAccountVerification()[pri:2, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="myAccountVerification" duration-ms="10415" started-at="2019-05-23T18:47:41Z" finished-at="2019-05-23T18:47:51Z">
+        <test-method status="PASS" signature="myAccountVerification()[pri:2, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="myAccountVerification" duration-ms="9219" started-at="2019-05-25T05:38:26Z" finished-at="2019-05-25T05:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myAccountVerification -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-05-23T18:47:51Z" finished-at="2019-05-23T18:47:51Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-25T05:38:35Z" finished-at="2019-05-25T05:38:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=myAccountVerification status=SUCCESS method=AddNewAddressTest.myAccountVerification()[pri:2, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1] output={null}]]]>
+                <![CDATA[[TestResult name=myAccountVerification status=SUCCESS method=AddNewAddressTest.myAccountVerification()[pri:2, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="addNewAddressVerification()[pri:3, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="addNewAddressVerification" duration-ms="4335" started-at="2019-05-23T18:47:51Z" finished-at="2019-05-23T18:47:56Z">
+        <test-method status="PASS" signature="addNewAddressVerification()[pri:3, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="addNewAddressVerification" duration-ms="3014" started-at="2019-05-25T05:38:35Z" finished-at="2019-05-25T05:38:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewAddressVerification -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-05-23T18:47:56Z" finished-at="2019-05-23T18:47:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addNewAddressVerification status=SUCCESS method=AddNewAddressTest.addNewAddressVerification()[pri:3, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@573f2bb1]" name="close" is-config="true" duration-ms="253" started-at="2019-05-23T18:47:56Z" finished-at="2019-05-23T18:47:56Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="close" is-config="true" duration-ms="2333" started-at="2019-05-25T05:38:38Z" finished-at="2019-05-25T05:38:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-25T05:38:38Z" finished-at="2019-05-25T05:38:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewAddressVerification status=SUCCESS method=AddNewAddressTest.addNewAddressVerification()[pri:3, instance:com.learnautomation.testcases.AddNewAddressTest@402f32ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
       </class> <!-- com.learnautomation.testcases.AddNewAddressTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite (1) -->
-  <suite name="Suite (0)" duration-ms="49852" started-at="2019-05-23T18:46:26Z" finished-at="2019-05-23T18:47:16Z">
+  <suite name="Suite (0)" duration-ms="31998" started-at="2019-05-25T05:37:35Z" finished-at="2019-05-25T05:38:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="49852" started-at="2019-05-23T18:46:26Z" finished-at="2019-05-23T18:47:16Z">
+    <test name="Test" duration-ms="31998" started-at="2019-05-25T05:37:35Z" finished-at="2019-05-25T05:38:07Z">
       <class name="com.learnautomation.testcases.MyAccountChange">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="setUpSuite" is-config="true" duration-ms="5" started-at="2019-05-23T18:46:26Z" finished-at="2019-05-23T18:46:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="setup" is-config="true" duration-ms="9369" started-at="2019-05-23T18:46:26Z" finished-at="2019-05-23T18:46:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="setup" is-config="true" duration-ms="6704" started-at="2019-05-25T05:37:35Z" finished-at="2019-05-25T05:37:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="login" duration-ms="24933" started-at="2019-05-23T18:46:36Z" finished-at="2019-05-23T18:47:00Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="setUpSuite" is-config="true" duration-ms="0" started-at="2019-05-25T05:37:35Z" finished-at="2019-05-25T05:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="login" duration-ms="10888" started-at="2019-05-25T05:37:42Z" finished-at="2019-05-25T05:37:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-23T18:47:00Z" finished-at="2019-05-23T18:47:00Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-25T05:37:53Z" finished-at="2019-05-25T05:37:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=MyAccountChange.login()[pri:1, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=MyAccountChange.login()[pri:1, instance:com.learnautomation.testcases.MyAccountChange@174d20a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="myAccountVerification()[pri:2, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="myAccountVerification" duration-ms="8829" started-at="2019-05-23T18:47:00Z" finished-at="2019-05-23T18:47:09Z">
+        <test-method status="PASS" signature="myAccountVerification()[pri:2, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="myAccountVerification" duration-ms="8498" started-at="2019-05-25T05:37:53Z" finished-at="2019-05-25T05:38:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myAccountVerification -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-05-23T18:47:09Z" finished-at="2019-05-23T18:47:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=myAccountVerification status=SUCCESS method=MyAccountChange.myAccountVerification()[pri:2, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="personalInfoChange()[pri:3, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="personalInfoChange" duration-ms="6329" started-at="2019-05-23T18:47:09Z" finished-at="2019-05-23T18:47:16Z">
+        <test-method status="PASS" signature="personalInfoChange()[pri:3, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="personalInfoChange" duration-ms="5568" started-at="2019-05-25T05:38:01Z" finished-at="2019-05-25T05:38:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalInfoChange -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-23T18:47:16Z" finished-at="2019-05-23T18:47:16Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-25T05:38:01Z" finished-at="2019-05-25T05:38:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=personalInfoChange status=SUCCESS method=MyAccountChange.personalInfoChange()[pri:3, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9] output={null}]]]>
+                <![CDATA[[TestResult name=myAccountVerification status=SUCCESS method=MyAccountChange.myAccountVerification()[pri:2, instance:com.learnautomation.testcases.MyAccountChange@174d20a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.learnautomation.testcases.MyAccountChange@66d2e7d9]" name="close" is-config="true" duration-ms="386" started-at="2019-05-23T18:47:16Z" finished-at="2019-05-23T18:47:16Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="tearDownMethod" is-config="true" duration-ms="4" started-at="2019-05-25T05:38:07Z" finished-at="2019-05-25T05:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=personalInfoChange status=SUCCESS method=MyAccountChange.personalInfoChange()[pri:3, instance:com.learnautomation.testcases.MyAccountChange@174d20a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.learnautomation.testcases.MyAccountChange@174d20a]" name="close" is-config="true" duration-ms="336" started-at="2019-05-25T05:38:07Z" finished-at="2019-05-25T05:38:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.learnautomation.testcases.MyAccountChange -->
     </test> <!-- Test -->
   </suite> <!-- Suite (0) -->
-  <suite name="Suite (2)" duration-ms="67391" started-at="2019-05-23T18:47:56Z" finished-at="2019-05-23T18:49:03Z">
+  <suite name="Suite (2)" duration-ms="33047" started-at="2019-05-25T05:38:41Z" finished-at="2019-05-25T05:39:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="67391" started-at="2019-05-23T18:47:56Z" finished-at="2019-05-23T18:49:03Z">
-      <class name="com.learnautomation.testcases.JabongPointTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.JabongPointTest@215be6bb]" name="setUpSuite" is-config="true" duration-ms="8" started-at="2019-05-23T18:47:56Z" finished-at="2019-05-23T18:47:56Z">
+    <test name="Test" duration-ms="33047" started-at="2019-05-25T05:38:41Z" finished-at="2019-05-25T05:39:14Z">
+      <class name="com.learnautomation.testcases.FetchJabongPointTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2]" name="setUpSuite" is-config="true" duration-ms="0" started-at="2019-05-25T05:38:41Z" finished-at="2019-05-25T05:38:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.JabongPointTest@215be6bb]" name="setup" is-config="true" duration-ms="8137" started-at="2019-05-23T18:47:56Z" finished-at="2019-05-23T18:48:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2]" name="setup" is-config="true" duration-ms="8598" started-at="2019-05-25T05:38:41Z" finished-at="2019-05-25T05:38:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.learnautomation.testcases.JabongPointTest@215be6bb]" name="loginApp" duration-ms="39771" started-at="2019-05-23T18:48:04Z" finished-at="2019-05-23T18:48:44Z">
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2]" name="loginApp" duration-ms="18724" started-at="2019-05-25T05:38:49Z" finished-at="2019-05-25T05:39:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.JabongPointTest@215be6bb]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-05-23T18:48:44Z" finished-at="2019-05-23T18:48:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginApp status=SUCCESS method=JabongPointTest.loginApp()[pri:1, instance:com.learnautomation.testcases.JabongPointTest@215be6bb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="jabongPoingVerification()[pri:2, instance:com.learnautomation.testcases.JabongPointTest@215be6bb]" name="jabongPoingVerification" duration-ms="19257" started-at="2019-05-23T18:48:44Z" finished-at="2019-05-23T18:49:03Z">
+        <test-method status="PASS" signature="jabongPoingVerification()[pri:2, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2]" name="jabongPoingVerification" duration-ms="3341" started-at="2019-05-25T05:39:08Z" finished-at="2019-05-25T05:39:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jabongPoingVerification -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.JabongPointTest@215be6bb]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-05-23T18:49:03Z" finished-at="2019-05-23T18:49:03Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-25T05:39:08Z" finished-at="2019-05-25T05:39:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=jabongPoingVerification status=SUCCESS method=JabongPointTest.jabongPoingVerification()[pri:2, instance:com.learnautomation.testcases.JabongPointTest@215be6bb] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=FetchJabongPointTest.loginApp()[pri:1, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.learnautomation.testcases.JabongPointTest@215be6bb]" name="close" is-config="true" duration-ms="222" started-at="2019-05-23T18:49:03Z" finished-at="2019-05-23T18:49:03Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-05-25T05:39:11Z" finished-at="2019-05-25T05:39:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=jabongPoingVerification status=SUCCESS method=FetchJabongPointTest.jabongPoingVerification()[pri:2, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.learnautomation.testcases.FetchJabongPointTest@32d992b2]" name="close" is-config="true" duration-ms="2380" started-at="2019-05-25T05:39:11Z" finished-at="2019-05-25T05:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.learnautomation.testcases.JabongPointTest -->
+      </class> <!-- com.learnautomation.testcases.FetchJabongPointTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite (2) -->
 </testng-results>
