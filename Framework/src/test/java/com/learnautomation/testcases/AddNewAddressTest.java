@@ -36,6 +36,5 @@ public class AddNewAddressTest extends BaseClass {
 		objAddressPage.addNewAddress();
 		Assert.assertEquals(objAddressPage.verifyMessage(), "Address added successfully");
 		System.out.println("Address added successfully");
-
 	}
 }

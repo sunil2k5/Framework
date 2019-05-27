@@ -21,6 +21,8 @@ public class AddressPage {
 	By mobileNumber=By.xpath("//input[@name='mobile']");
 	By addThisAddress=By.xpath("//button[@class='btn btn-primary add-new-btn']");
 	By addressAddedMessage=By.xpath("//div[@class='address-added']");
+	By savedAddressLink=By.xpath("//a[@class='add-gift-credits address-detail-list']");
+	
 	
 	public void addNewAddress() {
 		
@@ -31,6 +33,8 @@ public class AddressPage {
 		Utility.sendKey(driver, addressField, 20, "arush apartment, near vaisno devi temple");
 		Utility.sendKey(driver, mobileNumber, 20, "7296053865");
 		Utility.clickOn(driver, addThisAddress, 20);
+		
+		
 		
 		
 		
@@ -45,6 +49,11 @@ public class AddressPage {
 		 * driver.findElement(addThisAddress).click();
 		 */
 	
+	}
+	
+	public void clickOnSavedAddress() {
+		
+		Utility.clickOn(driver, savedAddressLink, 20);
 	}
 	
 	public String verifyMessage() {
