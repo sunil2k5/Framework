@@ -3,13 +3,45 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.learnautomation.testcases.LoginTest">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="tearDownMethod"/>
+          <include name="close"/>
+          <include name="loginApp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
+      <class name="com.learnautomation.testcases.FetchJabongPointTest">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="loginApp"/>
+          <include name="jabongPoingVerification"/>
+          <include name="tearDownMethod"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.learnautomation.testcases.FetchJabongPointTest -->
+      <class name="com.learnautomation.testcases.AddNewAddressTest">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="login"/>
+          <include name="addNewAddressVerification"/>
+          <include name="myAccountVerification"/>
+          <include name="tearDownMethod"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.learnautomation.testcases.AddNewAddressTest -->
       <class name="com.learnautomation.testcases.MyAccountChange">
         <methods>
           <include name="myAccountVerification"/>
           <include name="setUpSuite"/>
+          <include name="login"/>
           <include name="tearDownMethod"/>
           <include name="close"/>
           <include name="setup"/>
+          <include name="personalInfoChange"/>
         </methods>
       </class> <!-- com.learnautomation.testcases.MyAccountChange -->
     </classes>
